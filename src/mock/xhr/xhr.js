@@ -254,7 +254,7 @@ Util.extend(MockXMLHttpRequest.prototype, {
         else requestHeaders[name] = value
     },
     timeout: 0,
-    withCredentials: false,
+    withCredentials: true,
     upload: {},
     // https://xhr.spec.whatwg.org/#the-send()-method
     // Initiates the request.
